@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#image-collection {
+    height: 200px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+#image-collection > img {
+    width:20%;
+    margin: 8px;
+}
+
+.navbar{
+    height: 30px;
+    padding-top: 61px;
+    padding-left: 500px;
+}
+
+a{
+    border: 1px solid black;
+    padding: 5px;
+    margin-right: 40px;
+    margin: 20px 40x 10px 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+a:hover{
+    color: black;
+    border-radius: 10px;
+    padding: 4px;
+}
+
